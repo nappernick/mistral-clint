@@ -1,5 +1,6 @@
 import React from 'react';
 import ChatBox from './components/ChatBox';
+import Embeddings from './components/Embeddings';
 import { CssBaseline, Container } from '@mui/material';
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <Container component="main" maxWidth="sm">
       <CssBaseline />
       <ChatBox />
+      <Embeddings />
     </Container>
   );
 }
